@@ -17,3 +17,37 @@ img{
     width: 34%;
     height: auto;
 }
+
+table, td{
+    /*keretezés*/
+    border: black solid 1px;
+    /*cella távolságok megszüntetése*/
+    border-collapse: collapse;
+}
+
+table{
+    /*float megszüntetése*/
+    /*float: unset;
+    float: none;*/
+    clear: both;
+    background-color: white;
+}
+
+
+#elso{
+    background-image: url("smiley2.png");
+    background-size: contain;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ul>li{
+    list-style-image: url("smiley2.png");
+    list-style-position: inside;
+}
+
+ol>li{
+    list-style-type: none ;
+    list-style: none;
+}
