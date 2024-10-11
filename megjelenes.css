@@ -2,7 +2,7 @@ body{
     background-color: green;
 }
 
-h1{
+focim{
     color: white;
     text-align: center;
 }
@@ -50,4 +50,14 @@ ul>li{
 ol>li{
     list-style-type: none ;
     list-style: none;
+}
+
+#szoveg{
+    background-color: white;
+}
+
+#nagybetu{
+    font-variant: small-caps;
+    
+    text-transform: capitalize;
 }
